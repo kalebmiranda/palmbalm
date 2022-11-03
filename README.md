@@ -1,5 +1,4 @@
-# palmbalm
-Coded Site for Palmbalm
+# personalframework
+starter code for new websites
 
-[View my site](https://kalebmiranda.github.io/palmbalm)    
-
+[View Demo](https://kalebmiranda.github.io/personalframework)

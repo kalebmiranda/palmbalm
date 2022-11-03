@@ -4,9 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palmbalm</title>
+    <title>My Framework</title>
+    <link rel="stylesheet" href="css/style.css">
+
+<!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&family=Exo:wght@700&family=Montserrat+Subrayada&family=Source+Sans+Pro&family=Source+Serif+Pro:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<!-- MAIN CSS STYLES -->
+<link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-   Palmbalm site coming soon! 
+
+<header class="site-header toggle-nav animated sticky">
+    <div class="site-id">
+        <img src="img/palmbalm-logoorange-copy.png" width="60" height="60"  alt="Fragrance Logo"> 
+        </div>
+        <h1 class="hide-visually"><a href="index.html">My Framework</h1></a>
+    </div>
+    <nav class="site-nav" data-navstate="closed">
+        <button class="menu-button">
+            <span class="hide-visually">menu</span>
+            <svg width="30" height="30">
+            
+                <title>Menu</title>
+                <rect id="menubar-top" y="0" width="30" height="3"></rect>
+                <rect id="menubar-middle" y="8" width="30" height="3"></rect>
+                <rect id="menubar-bottom" y="16" width="30" height="3"></rect>
+            </svg>
+        </button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="subpage.html">Subpage</a></li>
+        </ul>
+    </nav>
+
+
+</header>  
+
+<main class="site-main">
+
+    <section class="hero">
+        <div class="container">
+            <h1>Kaleb's Personal Framework 2022</h1>
+            <p>This is a simple, single page website, built with SASS</p>
+            <a href="#section1" class="button">Go to Section 1</a>
+            <a href="#section2" class="button">Go to Section 2</a>
+            <a href="#section3" class="button">Go to Section 3</a>
+        </div>
+    </section>
+
+   
+
+    <section id="section1" class="scroll-triggered">
+        <div class="container">
+            <div class="row">
+                <div class="one-half jd-contentblock-image">
+                    <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+                </div>
+                <div class="one-half jd contentblock-text"> 
+                    <h3>Section 1</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate iusto libero soluta nesciunt est hic aperiam explicabo tempora consequatur aspernatur, debitis, repellat officiis facere quibusdam.</p>
+                    <a href="#" class="button">Button</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="section2" data-navstate="active" class="scroll-triggered">
+        <div class="row swapped">
+            <div class="row stacked">
+                <div class="one-half jd contentblock-image">
+                    <img src="https://via.placeholder.com/1600x1200"
+                    alt="Placeholder">
+                </div>
+                <div class="one-half jd-contentblock-text">
+                <h3>Section 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero doloribus quam, dolorum eius molestiae omnis eos dicta similique. Placeat?</p>
+                <a href="#" class="button">Button</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3" class="scroll-triggered">
+        <div class="container">
+            <div class="row stacked">
+                <div class="one-half    jd-contentblock-image">
+                    <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+                    <div class="jd-character">
+                        <svg height="100" width="100">
+                            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+                        </svg>
+                </div>
+                <div class="one-half">
+                    <h3>Section 3</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate iusto libero soluta nesciunt est hic aperiam explicabo tempora consequatur aspernatur, debitis, repellat officiis facere quibusdam.</p>
+                    <a href="#" class="button">Button</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+<footer class="site-footer">
+    <nav class="sitenav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#layout">Subpage</a></li>
+        </ul>
+    </nav>
+</footer>
+
+<!--SECTION SCROLL BY CHRIS FERDINANDI: https://github.com/cferdinandi/smooth-scroll -->
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800,
+        speedAsDuration: true
+    });
+</script>
+
+
+
+
+ 
+
+
+
+   
+    <!-- MAIN JS SCRIPT.JS -->
+    <script src="js/script.js"></script> 
+
 </body>
-</html> 
+
+</html>
