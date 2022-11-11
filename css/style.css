@@ -264,8 +264,12 @@ body {
 }
 
 /* SITE STRUCTURE */
+.site-id {
+  align: left;
+}  
+  
 .site-header.sticky {
-  position: fixed;
+  position: absolute;
   width: 100%;
   background-color: #fff; 
 }
@@ -301,8 +305,8 @@ body {
           align-items: center;
 }
 .site-header .logo {
-  max-width: 50px;
-  margin-right: 0.5em;
+  max-width: 100px;
+  margin-right: 20em;
 }
 
 /* SITE FOOTER */
