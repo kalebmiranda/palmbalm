@@ -36,9 +36,27 @@ $mycolor: pink;
 @import "partials/sitenav";
 @import "partials/animations";
 
+/* CUSTOM STYLING */
+.km-centered-quote {
+    text-align: center;
+  }
+  .km-image-right {
+    text-align: right;
+  }
+  .km-image-right img {
+    max-width: 50%;
+  }
 
+  .km-text-centered-right {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: right;
+  }
 
-body {
- 
-}
- 
+  .km-image-left {
+    text-align: left;
+  }
+
+  .km-image-left img {
+    max-width: 50%;
+  }

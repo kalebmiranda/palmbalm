@@ -28,8 +28,10 @@ $gridgap: 2%;
     }
 
     .align-top {
-        align-item: flex-start;
+        align-items: flex-start;
     }
+
+    
 
     @media (min-width: $breakpoint-small) {
 
