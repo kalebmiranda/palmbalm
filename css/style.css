@@ -42,7 +42,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Serif Pro", Georgia, "Times New Roman", Times, serif;
+  font-family: "big-caslon-fb", Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
 }
 
@@ -122,6 +122,10 @@ hr {
 }
 
 /* HELPERS */
+.text-centered {
+  text-align: center;
+}
+
 .hide-visually {
   position: absolute;
   top: -9999px;
@@ -303,14 +307,8 @@ body {
 
 /* SITE FOOTER */
 .site-footer {
-  background: rgb(41, 39, 39);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  background: rgb(0, 0, 0);
   padding: 1em;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 .site-footer a {
   color: white;
@@ -349,6 +347,7 @@ section {
 
 /* HERO SECTION */
 .hero {
+  background-image: url(../img/kealia-hero-blurred.png);
   color: white;
   text-align: center;
   padding: 6em 0;
@@ -357,7 +356,6 @@ section {
   display: grid;
   place-items: center;
   background-size: cover;
-  background-image: url(../img/kealia-hero-blurred.png);
 }
 .hero .container {
   margin-left: 0;
