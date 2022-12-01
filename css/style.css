@@ -79,7 +79,7 @@ p {
 
 /* LINKS */
 a {
-  color: rgb(72, 158, 122);
+  color: rgb(173, 213, 229);
 }
 a:hover {
   color: rgb(72, 158, 122);
@@ -135,7 +135,7 @@ hr {
 /* BUTTONS */
 .button {
   display: inline-block;
-  background-color: rgb(72, 158, 122);
+  background-color: rgb(173, 213, 229);
   color: #fff;
   text-decoration: none;
   padding: 1em;
