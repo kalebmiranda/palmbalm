@@ -31,6 +31,14 @@
     }
 }
 
+    /* BACKGROUND */
+    .background {
+        background-image: url(../img/backround-main.png);
+        background: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
     /* SITE FOOTER */
     .site-footer {
         background: rgb(0, 0, 0); 

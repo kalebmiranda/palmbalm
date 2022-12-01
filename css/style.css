@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* BASE TEXT FONTS */
 body {
-  font-family: "source sans pro", Helvetica, Arial, Helvetica, sans-serif;
+  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -113,7 +113,7 @@ hr {
 /* SECTION HEADING */
 .section-heading {
   font-size: 1em;
-  font-family: "source sans pro", Helvetica, Arial, Helvetica, sans-serif;
+  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.07em;
@@ -303,6 +303,14 @@ body {
 .site-header .logo {
   max-width: 50px;
   margin-right: 0.5em;
+}
+
+/* BACKGROUND */
+.background {
+  background-image: url(../img/backround-main.png);
+  background: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* SITE FOOTER */
