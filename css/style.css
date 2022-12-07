@@ -145,6 +145,11 @@ hr {
   color: rgb(150, 150, 150);
 }
 
+.description {
+  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
+  color: rgb(69, 69, 69);
+}
+
 .hide-visually {
   position: absolute;
   top: -9999px;
