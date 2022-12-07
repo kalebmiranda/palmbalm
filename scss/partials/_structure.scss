@@ -78,14 +78,15 @@
 
 /* HERO SECTION */
 .hero {
-    background-image: url(../img/kealia-hero-blurred.png); 
+    background-image: url(../img/kealia-hero-blurred); 
     color: white;
     text-align: center;
     padding: 6em 0; 
     min-height: 100vh;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
     background-size: cover;
+    align-items: flex-end;
 
     .container {
         margin-left: 0;

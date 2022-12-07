@@ -33,17 +33,25 @@ body {
 
 /* BASE HEADINGS COLORS*/
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(42, 42, 42);
+  color: rgb(69, 69, 69);
 }
 
 /* BASE TEXT FONTS */
 body {
-  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
+  font-family: "big-caslon-fb", Georgia, "Times New Roman", Times, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "big-caslon-fb", Georgia, "Times New Roman", Times, serif;
+  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
   font-weight: 700;
+}
+
+.serif {
+  font-family: "big-caslon-fb", Georgia, "Times New Roman", Times, serif;
+}
+
+.sans {
+  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
 }
 
 /* BASE TYPOGRAPHY */
@@ -79,7 +87,7 @@ p {
 
 /* LINKS */
 a {
-  color: rgb(173, 213, 229);
+  color: rgb(138, 198, 221);
 }
 a:hover {
   color: rgb(72, 158, 122);
@@ -126,6 +134,17 @@ hr {
   text-align: center;
 }
 
+.tagline {
+  color: rgb(232, 146, 125);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.price {
+  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
+  color: rgb(150, 150, 150);
+}
+
 .hide-visually {
   position: absolute;
   top: -9999px;
@@ -135,12 +154,13 @@ hr {
 /* BUTTONS */
 .button {
   display: inline-block;
-  background-color: rgb(173, 213, 229);
+  background-color: rgb(138, 198, 221);
   color: #fff;
   text-decoration: none;
   padding: 1em;
-  border-radius: 5px;
+  border-radius: 30px;
   margin: 1em 0;
+  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
 }
 .button:hover {
   color: #fff;
@@ -355,15 +375,21 @@ section {
 
 /* HERO SECTION */
 .hero {
-  background-image: url(../img/kealia-hero-blurred.png);
+  background-image: url(../img/kealia-hero-blurred);
   color: white;
   text-align: center;
   padding: 6em 0;
   min-height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-size: cover;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 .hero .container {
   margin-left: 0;
@@ -625,4 +651,9 @@ section {
 
 .km-image-left img {
   max-width: 50%;
+}
+
+body {
+  background-image: url(../img/background-main.png);
+  background-repeat: no-repeat;
 }
