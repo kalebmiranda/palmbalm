@@ -40,13 +40,15 @@
     }
 
     /* SITE FOOTER */
+    
     .site-footer {
-        background: rgb(0, 0, 0); 
-        padding: 1em;
+        background: rgb(41, 39, 39); 
+         background-size: cover;
 
         a {
             color: white;
             text-decoration: none;
+            text-align: center; 
         }
     }
 
