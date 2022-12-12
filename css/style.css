@@ -150,6 +150,15 @@ hr {
   color: rgb(69, 69, 69);
 }
 
+.site-footer {
+  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+.social-icons {
+  text-align: right;
+}
+
 .hide-visually {
   position: absolute;
   top: -9999px;
@@ -340,12 +349,13 @@ body {
 
 /* SITE FOOTER */
 .site-footer {
-  background: rgb(0, 0, 0);
-  padding: 1em;
+  background: rgb(41, 39, 39);
+  background-size: cover;
 }
 .site-footer a {
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
 .site-main {
