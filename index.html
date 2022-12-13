@@ -98,7 +98,7 @@
     <section id="fragrances">
         <div class="container">
             
-            <h2>FRAGRANCES</h2>
+            <h2 class="sideways">FRAGRANCES</h2>
 
             <div class="row">
                 <div class="one-half text-centered">
@@ -134,10 +134,11 @@
     <section id="contact">
         <div class="container">
 
-            <h2>CONTACT</h2>
+            <h2 class="sideways">CONTACT</h2>
 
             <div class="km-centered-quote">
                 <h1>Reach Out To Us!</h1>
+                <h2>(808) 633-2332</h2>
             </div>
             <form class="contactform"> 
                 <div class="row">
@@ -145,11 +146,26 @@
                         <label for="contact_firstname" class="hide-visually">First Name</label>
                         <input type="text" placeholder="first name"id="contact_firstname" name="contact_firstname"/>
                     </div>
-                    <div class="one-half column">Last Name</div>
-                    <div class="one-half column">Email</div>
-                    <div class="one-half column">Phone (Optional)</div>
-                    <div class="one-whole column">Subject</div>
-                    <div class="one-whole column">Message</div>
+                    <div class="one-half column">
+                        <label for="contact_lastname" class="hide-visually">Last Name</label>
+                        <input type="text" placeholder="last name"id="contact_lastname" name="contact_lastname"/>
+                    </div>
+                    <div class="one-half column">
+                        <label for="contact_email" class="hide-visually">Email</label>
+                        <input type="text" placeholder="email"id="contact_email" name="contact_email"/>
+                    </div>
+                    <div class="one-half column">
+                        <label for="contact_phone" class="hide-visually">Phone (Optional)</label>
+                        <input type="text" placeholder="phone"id="contact_phone" name="contact_phone"/>
+                    </div>
+                    <div class="one-whole column">
+                        <label for="contact_subject" class="hide-visually">Subject</label>
+                        <input type="text" placeholder="subject"id="contact_subject" name="contact_subject"/>
+                    </div>
+                    <div class="one-whole column">
+                        <label for="contact_message" class="hide-visually">Message</label>
+                        <input type="text" placeholder="message"id="contact_message" name="contact_message"/>
+                    </div>
                     <a href="#send" class="button">Send</a>
                 </div>
             </form>
@@ -167,7 +183,7 @@
         <h3>Join Our Mailing List</h3>
         <p>Be the first to get insight on new products and specials.</p>
         <form>
-            <input type="text">
+            <input type="text" placeholder="Your Email Address"/>
             <input type="submit">
         </form>
     </div>

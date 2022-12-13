@@ -7,7 +7,7 @@
 
 .sideways {
     transform: rotate(-90deg) translate(-100%,0);
-    background-color: pink;
     transform-origin: left bottom;
     display: inline-block;
+    padding: 8em; 
 }
