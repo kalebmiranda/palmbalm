@@ -44,11 +44,37 @@
     .site-footer {
         background: rgb(41, 39, 39); 
          background-size: cover;
+         color: white;
+         img {
+            display: block;
+         }
 
         a {
             color: white;
             text-decoration: none;
             text-align: center; 
+            padding: 2em;
+        }
+
+        .footer-mailing-list {
+            background: rgb(56,53,53);
+            padding: 2em;
+            
+        }
+
+        .footer-sitenav {
+            background: rgb(41, 39, 39); 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul {
+                display: flex;
+                list-style: none; 
+            }
+            .social-icons {
+                display: flex;
+
+            }
         }
     }
 
