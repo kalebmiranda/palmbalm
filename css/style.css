@@ -73,11 +73,6 @@ h1 {
 h2 {
   font-size: 26px;
   line-height: 1.1em;
-  text-orientation: sideways-left;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  padding: 0 -4em;
 }
 
 h3 {
@@ -161,17 +156,29 @@ hr {
 
 .site-footer {
   font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
-  text-align: right;
 }
 
-.social-icons {
-  text-align: right;
+.footer-mailing-list {
+  font-family: "big-caslon-fb", Georgia, "Times New Roman", Times, serif;
+}
+.footer-mailing-list h3 {
+  font-family: "montserrat", Helvetica, Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .hide-visually {
   position: absolute;
   top: -9999px;
   left: -9999px;
+}
+
+.sideways {
+  -webkit-transform: rotate(-90deg) translate(-100%, 0);
+          transform: rotate(-90deg) translate(-100%, 0);
+  background-color: pink;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  display: inline-block;
 }
 
 /* BUTTONS */
@@ -360,11 +367,43 @@ body {
 .site-footer {
   background: rgb(41, 39, 39);
   background-size: cover;
+  color: white;
+}
+.site-footer img {
+  display: block;
 }
 .site-footer a {
   color: white;
   text-decoration: none;
   text-align: center;
+  padding: 2em;
+}
+.site-footer .footer-mailing-list {
+  background: rgb(56, 53, 53);
+  padding: 2em;
+}
+.site-footer .footer-sitenav {
+  background: rgb(41, 39, 39);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-footer .footer-sitenav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+.site-footer .footer-sitenav .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .site-main {
@@ -680,4 +719,22 @@ section {
 body {
   background-image: url(../img/background-main.png);
   background-repeat: no-repeat;
+}
+
+.email-input {
+  background-color: rgb(188, 190, 191);
+  display: inline-block;
+  padding: 1em;
+  border-radius: 30px;
+  margin: 1em 0;
+}
+
+.footer-mailing-list {
+  color: white;
+  text-align: center;
+  background-color: rgb(51, 42, 42);
+  padding: 3em 0;
+}
+.footer-mailing-list p {
+  max-width: none;
 }

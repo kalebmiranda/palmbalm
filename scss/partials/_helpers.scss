@@ -4,3 +4,10 @@
     top: -9999px;
     left: -9999px;
 }
+
+.sideways {
+    transform: rotate(-90deg) translate(-100%,0);
+    background-color: pink;
+    transform-origin: left bottom;
+    display: inline-block;
+}
